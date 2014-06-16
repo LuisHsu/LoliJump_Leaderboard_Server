@@ -23,7 +23,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>LoliJump</string>
+   <string>LoliJump Leaderboard Server</string>
   </property>
   <widget class="QTabWidget" name="tab_4">
    <property name="geometry">

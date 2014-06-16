@@ -7,6 +7,7 @@
 #include <QTcpSocket>
 #include <QDateTime>
 #include <QFile>
+#include <QTextStream>
 #include <QtAlgorithms>
 
 #define PORT 5000
@@ -55,6 +56,7 @@ class Widget : public QWidget
 		void AddFloor(person_floor input);
 		void AddPlatform(person_platform input);
 		void DisplayOnConsole(QString msg);
+		void DisplayLeaderboard();
 		void ReadData(QString msgrecvF);
 		void SendData();
 
